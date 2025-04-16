@@ -3,25 +3,6 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "image1":
-            case "hio":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . c c c c c . . . . . 
-. . . . . c c c c c c c . . . . 
-. . . . c c 3 3 3 3 c c c . . . 
-. . . c c . 3 c 3 c 3 c c c . . 
-. . c c . . 3 3 3 3 3 c c c . . 
-. . c c . . 3 c c c 3 . . c . . 
-. c c . . . . . f . . . . . f . 
-. c . f f . . . f . . . . f f . 
-. c . . f f f f f . . . f f . . 
-. . . . . . . f f f f f . . . . 
-. . . . . . . . f . . . . . . . 
-. . . . . . . . f . . . . . . . 
-. . . . . . . . f . . . . . . . 
-`;
             case "image2":
             case "iop":return img`
 . . . . . . . . . . . . . . . . 
@@ -40,6 +21,25 @@ namespace myImages {
 . . e e . e e e e e e . . . . . 
 . . . e e e e e e . . . . . . . 
 . . . . . e e e . . . . . . . . 
+`;
+            case "image1":
+            case "hio":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . 5 5 2 f 5 . . . . . 
+. . . . . . 2 5 2 5 2 . . . . . 
+. . . . . . c c c c c . . . . . 
+. . . . . c c c c c c c . . . . 
+. . . . c c 3 3 3 3 3 c c . . . 
+. . . c c . 3 c 3 c 3 c c c . . 
+. . c c . . 3 f f f 3 c c c . . 
+. . c c . . 3 c c c 3 . . c . . 
+. c c . . . . . f . . . . . f . 
+. c . f f . . . f . . . . f f . 
+. c . . f f f f f . . . f f . . 
+. . . . . . . f f f f f . . . . 
+. . . . . . . . f . . . . . . . 
+. . . . . . . . f . . . . . . . 
+. . . . . . . . f f . . . . . . 
 `;
         }
         return null;
