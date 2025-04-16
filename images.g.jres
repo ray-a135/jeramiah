@@ -1,0 +1,17 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAADAzAAAAAAAwMwAAAAAAADMDA8AAAAAwAwA/wAAAADMAADwAAAAwDwzA/AAAADAPDwM8A8AAMA8M/z///8AwDw8DAAPAADAzDMDAA8AAADMzAAADwAAAMDMAPAAAAAAAMwM/wAAAAAAAPAPAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "hio"
+    },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAODu7g4AAAAAAAAA7gAAAAAAAADgDgAA7nd3BwAOAADud37u7u4AAO53d+7u7gDg7nd37u7uAOB+53cH4A4AAAAwAADgAAAAAAAAAO4AAAAAAADgDgAAAAAA4O4AAAAAAADuAAAAAAAA4A4AAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "iop"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
