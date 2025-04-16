@@ -40,7 +40,6 @@ let projectile: Sprite = null
 let mySprite5: Sprite = null
 let mySprite: Sprite = null
 info.setLife(90)
-let enemylives = 85
 mySprite = sprites.create(assets.image`hiopp`, SpriteKind.Player)
 let mySprite2 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
@@ -83,19 +82,19 @@ let mySprite6 = sprites.create(img`
 let mySprite3 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
+    . . . b b b b b b b b . . . . . 
+    . . b b 5 5 9 1 9 9 b b . . . . 
+    . . b 5 5 5 1 1 1 9 9 b . . . . 
+    . . b 5 5 5 9 9 9 9 9 b . . . . 
+    . . b 9 1 9 9 9 1 9 9 b . . . . 
+    . . b 1 1 1 9 1 1 1 9 b . . . . 
+    . . b 9 9 9 9 9 9 9 9 b . . . . 
+    . . b 9 9 9 9 9 9 9 9 b . . . . 
+    . . b b 9 9 9 9 9 9 b b . . . . 
+    . . . b b b b b b b b . . . . . 
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . 3 3 3 3 . . . . . . . 
-    . . . . 3 3 3 3 3 3 . . . . . . 
-    . . . . 3 3 3 3 3 3 3 . . . . . 
-    . . . 3 3 3 3 3 3 3 3 . . . . . 
-    . . . 3 3 3 3 3 3 3 . 3 . . . . 
-    . . . 3 3 3 3 3 3 3 . . . . . . 
-    . . . . 3 3 3 3 3 3 . . . . . . 
-    . . . . . . 3 3 3 . . . . . . . 
-    . . . . . . 3 . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
 controller.moveSprite(mySprite)
